@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,footer{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+main{
+    text-align: center;
+    margin: 20px;
+}
+.price-table{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.plan{
+    border: 1px solid #c09e9e;
+    padding: 20px;
+    background-color:azure;
+    border-radius: 5px;
+    width:270px ;
+
+}
+.plan h2{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+.plan p.price{
+    color: #da6023;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.plan ul{
+    list-style: none;
+    margin: 10px 0;
+}
+.plan ul li{
+    margin-bottom: 10px;
+}
+.plan button{
+    background-color: rgba(37, 36, 33, 0.82);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.plan button:hover{
+    background-color: blue;
+}
